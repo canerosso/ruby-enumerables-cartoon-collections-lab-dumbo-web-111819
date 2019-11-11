@@ -9,7 +9,7 @@ def roll_call_dwarves(midgets)# code an argument here
 
 def summon_captain_planet(numberofcalls)# code an argument here
   # Your code here
-  
+  numberofcalls.map { |call| call.capitalize + '!' }
 end
 
 def long_planeteer_calls(numberofcalls)# code an argument here
