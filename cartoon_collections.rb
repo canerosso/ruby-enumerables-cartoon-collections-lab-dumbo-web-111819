@@ -1,7 +1,7 @@
 
-def roll_call_dwarves(midgets)# code an argument here
+def roll_call_dwarves(little_people)# code an argument here
   # Your code here
-  midgets.each_with_index do |dwarf, index| #utilizes "each_with_index" method
+  little_people.each_with_index do |dwarf, index| #utilizes "each_with_index" method
     puts "#{index + 1}. #{dwarf}"
   end
   end
