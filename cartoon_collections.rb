@@ -1,9 +1,23 @@
-def roll_call_dwarves# code an argument here
+dwarves = %w[
+  Doc
+  Dopey
+  Bashful
+  Grumpy
+  Sneezy
+  Sleepy
+  Happy
+]
+def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-end
+  dwarves.each_with_index do |dwarf, index| #utilizes "each_with_index" method
+    puts "#{index + 1}. #{dwarf}"
+  end
+  end
+
 
 def summon_captain_planet# code an argument here
   # Your code here
+  
 end
 
 def long_planeteer_calls# code an argument here
